@@ -1,5 +1,5 @@
 # ADBUtil
-### A smaull utility for enabling ADB over USB on the MG4 SE/Excite (2022-2025 models tested).
+### A small utility for enabling ADB over USB on the MG4 SE/Excite (2022-2025 models tested).
 
 This utility solves the problem of not being able to enable ADB.  
 Engineering mode has a HOST/OTG toggle but that doesn't enable adbd.
