@@ -1,5 +1,5 @@
-#ADBUtil
-###A smaull utility for enabling ADB over USB on the MG4 SE/Excite (2022-2025 models tested).
+# ADBUtil
+### A smaull utility for enabling ADB over USB on the MG4 SE/Excite (2022-2025 models tested).
 
 This utility solves the problem of not being able to enable ADB.  
 Engineering mode has a HOST/OTG toggle but that doesn't enable adbd.
@@ -10,7 +10,7 @@ If you connect it too early, the device will not be listed in "adb devices" unle
 THe USB-C port to the right side of the 12v power socket is the OTG port. 
 THe USB A port will be switch to OTG mode as well, but this hasn't been tested. 
 
-###Restarting ADB
+### Restarting ADB
 I've included a button to restart adbd. 
 That allows you to enable Wireless ADB bypassing the firewall.  
 
