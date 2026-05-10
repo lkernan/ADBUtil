@@ -18,3 +18,6 @@ Once ADB is connected via USB run:
 > adb shell setprop service.adb.tcp.port 5556
 
 from your computer and then press the "Restart ADB" button for the change to take effect. 
+
+On your computer you can then run:
+> adb connect MG4_IP_Address:5556
