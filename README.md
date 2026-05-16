@@ -5,10 +5,8 @@ This utility solves the problem of not being able to enable ADB.
 Engineering mode has a HOST/OTG toggle but that doesn't enable adbd.
 
 
-__Do not connect the USB cable until after the running the adb connect function__
-
-If you connect it too early, the device will not be listed in "adb devices" unless you unplug and plug the cable in again. 
-
+__ I've been finding ADB is far more likely to conenct if the computer is connected to the USB-C port when the car starts. __
+If you've already connected, hold the home button on the car till the headunit reboots and it should work.
 
 The USB-C port to the right side of the 12v power socket is the OTG port. 
 The USB A port will be switch to OTG mode as well, but this hasn't been tested. 
